@@ -299,3 +299,61 @@ hr{
 .fit{
     height: 510px;
 }
+
+.card{
+    position: relative;
+left: 20px;
+    color: rgb(134, 134, 134);
+    font-weight: 600;
+    span{
+        text-decoration: line-through;
+        font-weight: normal;
+        font-size: 13px;
+    }
+}
+.moto{
+    display: flex;
+}
+.all{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.red {
+    p{
+        font-size: 12px;
+    }
+    span{
+        font-weight: bold;
+        text-decoration: none;
+    }
+    display: flex;
+    width: 110px;
+    gap: 16px   ;
+background-color: rgb(14, 10, 26);
+align-items: center;
+justify-content: center;
+
+}
+.red2{
+    gap: 5px;
+    display: flex;
+}
+.red3{
+    p{
+        font-size: 12px;
+    }
+    span{
+        font-weight: bold;
+        text-decoration: none;
+    }
+    display: flex;
+    width: 225px;
+    gap: 16px   ;
+background-color: rgb(14, 10, 26);
+align-items: center;
+justify-content: center;
+
+}
